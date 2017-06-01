@@ -179,9 +179,8 @@ transform: translate(-50%);
 	color: #b25453;
 	font-size: 6em;
 	font-family: 'Lobster', cursive;
-	text-align: center;
 	width: 80%;
-	margin: 20px;
+	margin: 20px auto;
 }
 #modal.on h3{
 	color: #000;
