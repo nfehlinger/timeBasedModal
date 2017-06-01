@@ -1,0 +1,359 @@
+body{
+	width: 80%;
+	background-color: #fff;
+	margin: 20px auto;
+}
+header{
+	width: 100%;
+	background-color: #5380b2;
+	height: 250px;
+	position: relative;
+}
+header h1{
+	font-family: 'Mr De Haviland', cursive;
+	font-size: 12em;
+	color: #fff;
+	background-color: #b25453;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	line-height: .4em;
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+#subhead{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+header h2{
+	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	color: #fff;
+	display: inline-block;
+	width: 20%;
+	padding: 20px;
+}
+header nav{
+	display: inline-block;
+	width: 50%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+}
+header nav ul{
+	display: inline-block;
+
+}
+header nav li{
+	display: inline-block;
+	margin: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: .9em;
+	color: #fff;
+}
+header nav li:hover{
+	border-bottom: 2px solid #fff;
+}
+#spacer{
+	display: inline-block;
+	width: 20%;
+}
+.main{
+	text-align: center;
+	width: 100%;
+}
+#hero{
+	width: 100%;
+	height: 500px;
+	background-image: url("https://www.chiceats.com/sites/default/files/styles/image_1024x768/public/recipe/photo/homemade-pasta-recipe-1080x810.jpg");
+	background-size: cover;
+	position: relative;
+	margin: 0px;
+}
+#hero h3{
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: #fff;
+	text-align: left;
+	width: 30%;
+	padding: 50px;
+	border-radius: 25%;
+	background-color: rgba(83,128,178, 0.4);
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+#wrapper{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.col{
+	position: relative;
+	width: 30%;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top
+}
+article{
+	width: 80%;
+	padding: 15px;
+	position: relative;
+	border-bottom: 1px solid #07213f;
+}
+.col img{
+	width: 100%;
+}
+.col h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	color: #07213f;
+	margin: 10px 0;
+}
+.col p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #5380b2;
+	text-align: left;
+}
+footer{
+	width: 100%;
+	height: 110px;
+	background-color: #5380b2;
+
+}
+#contact{
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	margin-left: 10px;
+	padding: 10px;
+
+}
+#contact h5{
+	font-size: 3em;
+	font-family: 'Mr De Haviland', cursive;
+	color: #fff;
+}
+#contact p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: .8em;
+	color: #fff;
+}
+#footerNav{
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	margin-left: 10px;
+	padding: 10px;
+
+}
+
+#footerNav ul{
+	font-family: 'Quicksand', sans-serif;
+	font-size: .8em;
+	color: #fff;
+
+}
+#footerNav li{
+	display: inline-block;
+	padding: 10px;
+}
+
+#modal.on{
+	position: fixed;
+transform: translate(-50%);
+	top: 100px;
+	left: 50%;
+	height: 500px;
+	width: 700px;
+	background-color: rgba(255,255,255, 0.9);
+	border: 10px solid rgba(36, 126, 229, 0.8);
+	border-radius: 30%;
+	text-align: center;
+}
+#modal.on h2{
+	color: #b25453;
+	font-size: 6em;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	width: 80%;
+	margin: 20px;
+}
+#modal.on h3{
+	color: #000;
+	font-family: 'Oswald',sans-serif;
+	font-size: 2em;
+	margin: 20px;
+}
+#modal.on form{
+	margin: 20px;
+}
+#modal.on input#email{
+	color: #5380b2;
+	font-size: 1em;
+	font-family: 'Quicksand', sans-serif;
+	border:	none;
+	border-bottom: 2px solid rgb(36, 126, 229);
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0);
+}
+#modal.on button#submit{
+	width: 100px;
+	height: 25px;
+	background-color: rgb(36, 126, 229);
+	border: none;
+	border-bottom: 2px solid #5380b2;
+	border-right: 2px solid #5380b2;
+	border-radius: 25%;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	font-weight: bolder;
+}
+#modal.on button#submit:hover{
+	border: none;
+}
+#modal.on #close{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 25px;
+	right: 25px;
+	color: #000;
+	font-size: 1em;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #fff;
+	border: 5px solid rgba(36, 126, 229, 0.8);
+	border-radius: 50%;
+}
+#modal.off{
+	display: none;
+}
+/*Media Queries*/
+@media(max-width: 1400px){
+	header nav li{
+		font-size: .8em;
+		margin: 10px;
+	}
+	#footerNav{
+		width: 30%;
+	}
+}
+@media(max-width: 1160px){
+	#hero h3{
+		width: 40%;
+	}
+}
+@media(max-width: 1115px){
+	header h2{
+		width: 25%;
+	}
+	header nav{
+		width: 40%;
+	}
+}
+@media(max-width: 935px){
+	#footerNav{
+		width: 40%
+	}
+	#hero h3{
+		width: 70%;
+		margin: none;
+	}
+}
+@media(max-width: 850px){
+	body{
+		width: 90%;
+	}
+	header h2{
+		display: none;
+	}
+	header nav{
+		width: 90%;
+	}
+	#hero{
+		height: 400px;
+	}
+	.col{
+		display: block;
+		width: 100%;
+		margin: auto;
+	}
+	article{
+		width: 100%;
+		margin:	auto;
+		padding: 10px 0;
+	}
+}
+@media(max-width: 620px){
+	header{
+		height:210px;
+	}
+	header h1{
+		font-size: 9em;
+	}
+	footer{
+		height: 200px;
+		text-align: center;
+	}
+	#contact{
+		display: block;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+	#footerNav{
+		display: block;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+	#hero {
+		display: none;
+	}
+	#modal.on{
+		width: 500px;
+		height: 400px;
+	}
+	#modal.on h2{
+		font-size: 4em;
+	}
+}
+@media(max-width: 550px){
+	header nav li{
+		font-size: .7em;
+		margin: 5px;
+		padding: 0;
+	}
+	header h1{
+		font-size: 7em;
+	}
+}
+@media(max-width: 460px){
+	footer{
+		height: 250px;
+	}
+	#modal.on{
+		width: 380px;
+		height: 350px;
+	}
+}
+@media(max-width: 360px){
+	header h1{
+		font-size: 6em;
+	}
+	#modal.on{
+		width: 300px;
+		height: 400px;
+	}
+	#modal.on input#email{
+		width: 250px;
+	}
+}
+
+
+
+
